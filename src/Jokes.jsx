@@ -5,8 +5,8 @@ export default function Jokes(){
     const [jokes, setJokes] = useState([]);
     const [punchline, setPunchline] = useState(""); 
     const [status, setStatus] = useState("fetching");
- useEffect(() => {
-    
+
+ useEffect(() => { 
     setTimeout(() => {
       fetchData(); 
     }, "1500");
