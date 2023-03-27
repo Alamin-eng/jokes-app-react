@@ -1,5 +1,6 @@
 
 .App{
+  
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -36,6 +37,6 @@
     border-radius: 3.1px;
     font-weight: bold;
     border:none;
-    font-size: .9rem;
-    color:rgb(208, 81, 17);
+    font-size: .95rem;
+    color:rgb(114, 4, 197);
 }

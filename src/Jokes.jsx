@@ -38,8 +38,8 @@ export default function Jokes(){
             ) : (
               <h5>"Loading Joke Please Wait .."</h5>
             )}
-            <button className="punchline-button" onClick={() => setPunchline(jokes.punchline)}> Click for punchline </button>
-            <button className="new-jokes" onClick={() => window.location.reload()}> Click For New Joke </button>
+            <button className="punchline-button" onClick={() => setPunchline(jokes.punchline)}> Show Punchline </button>
+            <button className="new-jokes" onClick={() => window.location.reload()}> Load New Joke </button>
           </div>
       )
 }
